@@ -25,6 +25,7 @@ app.use('/api/notes', require('./routes/notes'));
 
 //this is one of the endpoint of our api, this corresponds to the homepage
 app.get('/', (req, res) => {
+  console.log(process.env.DATABASE)
   res.send('Hello World!')
 });
 
