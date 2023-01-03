@@ -1,5 +1,6 @@
 
 //we will require mongoDb here because this is the entry file of our application
+require('dotenv').config()
 const connectToMongo = require('./config/db');
 connectToMongo(); //this function is asynchronous because we made it asynchronous
 
