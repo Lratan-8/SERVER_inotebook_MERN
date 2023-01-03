@@ -1,6 +1,6 @@
 // we require mongoose and mongoDb URI
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb://127.0.0.1:27017/inotebook';
+const mongoURI = 'mongodb+srv://luvrtn2022:He11o-W0rld@cluster0.rjfblyg.mongodb.net/test';
 
 //we will now create a function to establish our connection with MongoDb
 
