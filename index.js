@@ -5,7 +5,7 @@ connectToMongo(); //this function is asynchronous because we made it asynchronou
 
 //starting with the express server
 const express = require('express');
-const port = process.env.BASE_URL || 5000;
+const port = 5000;
 var cors = require('cors')
 var app = express()
 
